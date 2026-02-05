@@ -48,6 +48,9 @@ body {
   top: -10px;
   font-size: 40px;
   animation: fall 20s linear forwards;
+  pointer-events: none;
+  user-select: none;
+  z-index: 9999;
 }
 
 @keyframes fall {
@@ -55,5 +58,11 @@ body {
     transform: translateY(100vh);
     opacity: 0;
   }
+}
 
+/* add subtle horizontal sway during fall */
+@keyframes sway {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(20px); }
+  100% { transform: translateX(0); }
 }
