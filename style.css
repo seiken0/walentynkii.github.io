@@ -80,6 +80,17 @@ body {
   z-index: 9999;
 }
 
+.nienocontainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 350px;
+  margin: 10px;
+  font-size: 10px;
+}
+
 @keyframes fall {
   to {
     transform: translateY(100vh);
