@@ -26,7 +26,7 @@ function updateValentineCountdown() {
   const seconds = totalSeconds % 60;
 
   el.innerHTML =
-    `Do Walentynek zostało <b>${days}</b> dni <b>${hours}</b>h <b>${minutes}</b>m <b>${seconds}</b>s 💕`;
+    `Do naszych pierwszych Walentynek zostało tylko <b>${days}</b> dni <b>${hours}</b>h <b>${minutes}</b>m <b>${seconds}</b>s 💕`;
 }
 
 

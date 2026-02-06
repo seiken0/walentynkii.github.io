@@ -33,7 +33,7 @@ moveRandom.addEventListener("mouseenter", function (e) {
     const counterEl = document.getElementById("valentine-counter");
     const message = document.createElement("p");
     message.id = "no-click-message";
-    message.textContent = "kliknij w koncu to tak deklu";
+    message.textContent = "kliknij w końcu to TAK DEKLU!!!!";
     message.style.marginTop = "20px";
     message.style.fontSize = "16px";
     message.style.fontStyle = "italic";
